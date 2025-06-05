@@ -1,0 +1,106 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1200px;
+    background-color: white;
+}
+.banner {
+    position: relative;
+    height: 580px;
+    background-image: url('/CSSKT/coolbackgrounds-particles-oxygen.png');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.pealkiri {
+    position: absolute	;
+    font-size: 2.2rem;
+    color: white;
+    margin: 0;
+    bottom: 50px;
+    left: 40px;
+}
+
+.nimi {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    font-size: 1.1rem;
+    color: white;
+    margin: 10px 0 0 0;
+}
+
+.lingid {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+.lingid a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.sisu {
+    padding: 60px auto;
+}
+.text {
+    padding: 60px 40px;
+    text-align: center;
+}
+.tekstpealkiri {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.tooted {
+    padding: 40px;
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+}
+.picmeat {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.lihakiri {
+    font-size: 1.3rem;
+    color: #0077cc;
+    margin: 10px 0 5px 0;
+}
+.lihatext {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin: 0 10px;
+}
+.lihahind {
+    font-size: 1.3rem;
+    color: #0077cc;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.footer {
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer p {
+    font-size: 17px;
+    margin: 0;
+}
