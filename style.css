@@ -13,6 +13,7 @@ body {
 .banner {
     position: relative;
     height: 580px;
+    width: 1200px;
     background-image: url('./CSSKT/coolbackgrounds-particles-oxygen.png');
     background-size: cover;
     background-position: center;
